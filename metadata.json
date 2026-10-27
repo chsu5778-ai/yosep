@@ -1,0 +1,6 @@
+{
+  "name": "교생선생님 안녕! 롤링페이퍼",
+  "description": "구글 시트와 연동되는 교생실습 선생님과 학생들의 따뜻한 작별 온라인 롤링페이퍼 웹앱. 간편한 링크 & QR코드 공유 지원",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

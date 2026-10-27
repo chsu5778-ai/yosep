@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-handwriting {
+    font-family: 'Nanum Pen Script', cursive;
+  }
+  .font-cute {
+    font-family: 'Gaegu', cursive;
+  }
+  .font-sans-kr {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+}
+
+/* Custom corkboard background pattern */
+.bg-cork {
+  background-color: #e2b37a;
+  background-image: 
+    radial-gradient(#d39e62 15%, transparent 16%),
+    radial-gradient(#cb9556 15%, transparent 16%);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+/* Custom chalkboard background pattern */
+.bg-chalkboard {
+  background-color: #1e3a2b;
+  background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Soft paper grid */
+.bg-paper-grid {
+  background-color: #faf7f2;
+  background-image: 
+    linear-gradient(#f0e9df 1px, transparent 1px),
+    linear-gradient(90deg, #f0e9df 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Pushpin effect */
+.pushpin {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.2);
+}
+
